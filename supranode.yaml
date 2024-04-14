@@ -1,0 +1,10 @@
+script:
+  ## Install dependencies (alternatives commented)
+  # - yarn install
+  # - pnpm install
+  # - bun install
+  - npm install
+  ## Build (alternatives commented)
+  # - react-scripts build
+  - npm run build
+artifact: build
